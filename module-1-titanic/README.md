@@ -39,7 +39,7 @@ https://www.kaggle.com/c/titanic
 
 ## Структура
 
-'''
+```text
 module-1-titanic/
 |- README.md
 |- notebook.ipynb
@@ -47,7 +47,7 @@ module-1-titanic/
 |- data/
 |- models/
 |- examples/
-'''
+```
 
 ### Основные файлы
 
@@ -61,9 +61,9 @@ module-1-titanic/
 
 Установить зависимости:
 
-'''
+```bash
 pip install -r requirements.txt
-'''
+```
 
 После этого открыть `notebook.ipynb` и выполнить ячейки последовательно.
 
