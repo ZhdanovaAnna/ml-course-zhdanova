@@ -29,16 +29,17 @@
 | Logistic Regression |        0.804 |  0.729 |       0.849 |
 | Decision Tree       |        0.782 |  0.702 |       0.813 |
 
-**Дата обучения моделей:** 27.09.2026
+**Дата обучения моделей:** 26.09.2026
 
 ## Датасет
 
-Titanic — Machine Learning from Disaster
-Источник: Kaggle
-https://www.kaggle.com/c/titanic
+Titanic — Machine Learning from Disaster  
+Источник: Kaggle  
+https://www.kaggle.com/c/titanic  
 
 ## Структура
 
+'''
 module-1-titanic/
 |- README.md
 |- notebook.ipynb
@@ -46,6 +47,7 @@ module-1-titanic/
 |- data/
 |- models/
 |- examples/
+'''
 
 ### Основные файлы
 
@@ -59,7 +61,9 @@ module-1-titanic/
 
 Установить зависимости:
 
+'''
 pip install -r requirements.txt
+'''
 
 После этого открыть `notebook.ipynb` и выполнить ячейки последовательно.
 
