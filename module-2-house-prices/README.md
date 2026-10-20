@@ -77,7 +77,7 @@ module-2-house-prices/
 Клонировать репозиторий:
 
 ```bash
-git clone <URL-репозитория>
+git clone <https://github.com/ZhdanovaAnna/ml-course-zhdanova.git>
 cd module-2-house-prices
 ```
 
