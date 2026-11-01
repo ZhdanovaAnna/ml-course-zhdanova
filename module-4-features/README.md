@@ -64,7 +64,7 @@ lab-4-online-shoppers/
 6. **requirements.txt** - список необходимых библиотек.
 
 ## Используемые технологии
-
+```text
 pandas>=2.0
 numpy>=1.24
 scikit-learn>=1.3
@@ -78,7 +78,7 @@ seaborn>=0.12
 joblib>=1.3
 requests>=2.31
 jupyter>=1.0
-
+```
 ## Запуск
 
 Клонировать репозиторий:
@@ -101,5 +101,3 @@ online_shoppers_intention.csv
 ```
 
 Открыть **notebook.ipynb** в Jupyter Notebook и последовательно выполнить ячейки.
-
-Перед запуском убедитесь, что путь к датасету соответствует структуре проекта.
