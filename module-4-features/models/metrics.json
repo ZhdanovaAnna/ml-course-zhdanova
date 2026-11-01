@@ -1,0 +1,58 @@
+{
+  "baseline_models": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.8746415403523147,
+      "Precision": 0.5676156583629893,
+      "Recall": 0.8350785340314136,
+      "F1": 0.6758474576271186,
+      "ROC-AUC": 0.9327623077333835
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.8848832445718967,
+      "Precision": 0.605427974947808,
+      "Recall": 0.7591623036649214,
+      "F1": 0.6736353077816493,
+      "ROC-AUC": 0.9310319399698427
+    },
+    {
+      "Model": "LightGBM",
+      "Accuracy": 0.8730028676771815,
+      "Precision": 0.5674157303370787,
+      "Recall": 0.7931937172774869,
+      "F1": 0.6615720524017468,
+      "ROC-AUC": 0.9312162921562595
+    },
+    {
+      "Model": "CatBoost",
+      "Accuracy": 0.8754608766898812,
+      "Precision": 0.5722222222222222,
+      "Recall": 0.8089005235602095,
+      "F1": 0.6702819956616052,
+      "ROC-AUC": 0.9319193732534219
+    }
+  ],
+  "training_times_seconds": {
+    "Random Forest": 1.1658709049224854,
+    "XGBoost": 1.7716593742370605,
+    "LightGBM": 0.2510185241699219,
+    "CatBoost": 1.7761127948760986
+  },
+  "best_baseline_model": "Random Forest",
+  "best_lgbm_optuna_test_roc_auc": 0.9373939974928103,
+  "baseline_lgbm_test_roc_auc": 0.9312162921562595,
+  "best_lgbm_optuna_cv_roc_auc": 0.9327139805682878,
+  "best_params": {
+    "n_estimators": 150,
+    "num_leaves": 20,
+    "max_depth": 11,
+    "learning_rate": 0.02692130976735136,
+    "subsample": 0.5207024633335168,
+    "colsample_bytree": 0.7486177834112697,
+    "min_child_samples": 20,
+    "reg_alpha": 3.6825561717929154,
+    "reg_lambda": 0.0035690154701139253
+  },
+  "feature_count_after_encoding": 37
+}
